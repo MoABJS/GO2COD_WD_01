@@ -62,13 +62,10 @@ function App() {
 
   const handleEdit = (id) => {
     const editTodo = todosList.filter((todoItem) => todoItem.id === id);
-    // console.log(editTodo[0]);
     setTodo(editTodo[0].todo);
     setTodoEditId(editTodo[0].id);
     setEdit(true);
   };
-
-  console.log(todo, todosList);
 
   return (
     <div className="App">
@@ -126,7 +123,7 @@ function App() {
             </>
           ) : (
             <div className="Landing-page">
-              <p>
+              <p style={{ margin: 10 }}>
                 Its a brand new day, write down something and achieve it. Let's
                 go!
               </p>
