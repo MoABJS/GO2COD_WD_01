@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GO2COD_WD_01/static/css/main.e81d752c.css",
+    "main.js": "/GO2COD_WD_01/static/js/main.bb30942a.js",
+    "index.html": "/GO2COD_WD_01/index.html",
+    "main.e81d752c.css.map": "/GO2COD_WD_01/static/css/main.e81d752c.css.map",
+    "main.bb30942a.js.map": "/GO2COD_WD_01/static/js/main.bb30942a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e81d752c.css",
+    "static/js/main.bb30942a.js"
+  ]
+}
