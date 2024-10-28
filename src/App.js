@@ -85,7 +85,9 @@ function App() {
               minLength={5}
               required
             />
-            <button onClick={handleSubmit}>Add To Do</button>
+            <button onClick={handleSubmit}>
+              {edit ? "Edit To do" : "Add To do"}
+            </button>
           </form>
         </div>
         {validateLessChar && (
