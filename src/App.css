@@ -152,3 +152,32 @@ form {
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .app-card {
+    width: 90%;
+  }
+
+  .form input {
+    width: 60%;
+  }
+
+  .todo-item {
+    width: 100%;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+}
