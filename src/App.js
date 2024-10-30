@@ -112,7 +112,10 @@ function App() {
                       <p>{todoItem.time}</p>
                     </div>
                     <div className="buttons">
-                      <button onClick={() => handleDelete(todoItem.id)}>
+                      <button
+                        disabled={edit}
+                        onClick={() => handleDelete(todoItem.id)}
+                      >
                         🗑︎ Delete
                       </button>
                       <button onClick={() => handleEdit(todoItem.id)}>
